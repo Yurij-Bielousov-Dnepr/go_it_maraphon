@@ -1,0 +1,20 @@
+body{
+background: #f6f6fa;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 40px;
+padding-bottom: 40px;
+font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+background: #ffffff;
+display: flex;
+flex-direction: row-reverse;
+}
+.main-content{
+    padding-left: 88px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
