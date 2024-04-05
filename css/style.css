@@ -7,6 +7,10 @@ body {
   padding-bottom: 40px;
   font-family: "Montserrat", sans-serif;
 }
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .main-content {
   padding-left: 88px;
   padding-right: 40px;
@@ -18,6 +22,8 @@ body {
   background: #ffffff;
   display: flex;
   flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
 }
 .sidebar {
   background: #e0ebfe;
@@ -26,11 +32,14 @@ body {
   box-sizing: border-box;
   width: 370 px;
 }
-.sidbar-content {
+.sidbar-conteiner {
   padding-left: 48px;
   padding-right: 40px;
   padding-top: 40px;
   box-sizing: border-box;
+  margin-bottom: 20px;
+  /* Зокрема потрібно додати відступи та вирівняти списки  по лівому краю😉 */
+  /* Потрібно зробити відступ від фото до блоку Контакти👍 */
 }
 .contacts-title {
   font-weight: 700;
@@ -40,7 +49,7 @@ body {
   margin-top: 0px;
   margin-bottom: 8px;
 }
-.contact-type {
+.contacts-type {
   font-weight: 700;
   font-size: 14px;
   color: #161d2a;
@@ -68,10 +77,9 @@ body {
   font-weight: 700;
   font-size: 22px;
   color: #161d2a;
-  line-height: 24px;
+  line-height: normal;
   margin-top: 0px;
   margin-bottom: 8px;
-  line-height: 24;
 }
 .skils-list {
   padding-left: 16x;
@@ -80,5 +88,78 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: #161d2a;
-  line-height: 24;
+  line-height: 24px;
 }
+.my-projects-title {
+  color: #000;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-projects-item {
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.my-projects-list {
+  padding-left: 16px;
+}
+.my-projects-item-link {
+  color: #005fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.my-projects-item-tech {
+  color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.my-projects-conteiner {
+  margin-bottom: 40px;
+}
+.work-experiens-title {
+  color: #000;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.work-experiens-company {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.company-name {
+  color: #6d9bf5;
+}
+.work-experiens-period {
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+ .work-experiens-period-separator{
+ color: #000;}
+ .work-experiens-duties-list{
+padding-left: 16px;
+ }
+.work-experiens-duties-item{
+ color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+ }
+ .work-experiens-container {
+margin-bottom: 12px;
+ }
