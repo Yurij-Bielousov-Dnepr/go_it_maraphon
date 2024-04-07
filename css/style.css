@@ -5,6 +5,8 @@ body {
   padding-right: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
+        float: left;
+
   font-family: "Montserrat", sans-serif;
 }
 ul,ol{
